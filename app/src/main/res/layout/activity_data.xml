@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.myexample.android.shriramexecutive.DataActivity">
+    <TextView
+        android:id="@+id/empidname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Executive code: \nNANANANANA\n\nExecutive Name: \nNANAN NANAN NANAN"
+        android:textSize="13sp"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/fragmentHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Branch Details"
+        android:paddingTop="8dp"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:minWidth="100dp"
+        android:minHeight="20dp"
+        android:layout_marginTop="8dp">
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="NEXT"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

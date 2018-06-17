@@ -1,0 +1,166 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.fragmentsexamples.ProductDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MAKE*"
+            style="@style/textViewMaterial"/>
+        <EditText
+            android:id="@+id/product_make_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:inputType="textCapCharacters|textNoSuggestions"
+            android:hint="MAKE"
+            style="@style/editViewMaterial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MODEL*"
+            style="@style/textViewMaterial"/>
+        <EditText
+            android:id="@+id/product_model_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="MODEL"
+            android:inputType="textCapCharacters|textNoSuggestions"
+            style="@style/editViewMaterial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MFG. YEAR*"
+            style="@style/textViewMaterial"/>
+        <EditText
+            android:id="@+id/product_mfgyear_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="MFG. YEAR"
+            android:inputType="number"
+            style="@style/editViewMaterial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VALUATION*"
+            style="@style/textViewMaterial"/>
+        <EditText
+            android:id="@+id/product_valuation_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="VALUATION"
+            android:inputType="textCapCharacters|textNoSuggestions"
+            style="@style/editViewMaterial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOAN AMOUNT*"
+            style="@style/textViewMaterial"/>
+        <EditText
+            android:id="@+id/product_loanamount_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="LOAN AMOUNT"
+            android:inputType="number"
+            style="@style/editViewMaterial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TENTURE*"
+            style="@style/textViewMaterial"/>
+        <EditText
+            android:id="@+id/product_tenture_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="TENTURE"
+            android:inputType="number"
+            style="@style/editViewMaterial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DEALER NAME*"
+            style="@style/textViewMaterial"/>
+        <EditText
+            android:id="@+id/product_delearname_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="DEALER NAME"
+            android:inputType="textCapCharacters|textNoSuggestions"
+            style="@style/editViewMaterial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CIBIL SCORE*"
+            style="@style/textViewMaterial"/>
+        <EditText
+            android:id="@+id/product_cibil_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="Enter CIBIL Score"
+            android:inputType="number"
+            style="@style/editViewMaterial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CIBIL STATUS*"
+            style="@style/textViewMaterial"/>
+        <EditText
+            android:id="@+id/product_cibilstatus_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="Enter CIBIL Status"
+            android:inputType="textCapCharacters|textNoSuggestions"
+            style="@style/editViewMaterial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+    </LinearLayout>
+</FrameLayout>

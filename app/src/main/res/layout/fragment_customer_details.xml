@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myexample.android.shriramexecutive.CustomerDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer Name*"
+            style="@style/textViewMaterial"/>
+        <EditText
+            android:id="@+id/customer_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="Enter Customer Name"
+            android:inputType="textCapCharacters|textNoSuggestions"
+            style="@style/editViewMaterial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address*"
+            style="@style/textViewMaterial"/>
+        <EditText
+            android:id="@+id/cust_address_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:hint="Enter Address"
+            android:inputType="textCapCharacters|textPostalAddress|textNoSuggestions"
+            style="@style/editViewMaterial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number*"
+            style="@style/textViewMaterial"/>
+        <EditText
+            android:id="@+id/mobile_number_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:inputType="numberSigned"
+            android:hint="Enter Mobile Number"
+            style="@style/editViewMaterial"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+
+    </LinearLayout>
+</FrameLayout>

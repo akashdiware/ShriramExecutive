@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+    <style name="textViewMaterial">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+    <style name="editViewMaterial">
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="fragmentCustomStyle">
+        <item name="android:background">@android:color/holo_green_light</item>
+    </style>
+</resources>

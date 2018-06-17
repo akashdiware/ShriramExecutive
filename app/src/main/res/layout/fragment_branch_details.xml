@@ -1,0 +1,69 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myexample.android.shriramexecutive.BranchDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date*"
+            android:gravity="center_horizontal"
+            style="@style/textViewMaterial"/>
+
+        <TextView
+            android:id="@+id/setDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24dp"
+            android:drawableRight="@drawable/ic_date_range_black_24dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Division*"
+            android:gravity="center_horizontal"
+            style="@style/textViewMaterial"/>
+        <Spinner
+            android:id="@+id/divisions_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Branch*"
+            android:gravity="center_horizontal"
+            style="@style/textViewMaterial"/>
+        <Spinner
+            android:id="@+id/branches_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/fragmentCustomStyle"/>
+        <EditText
+            android:id="@+id/otherBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Specify Any Other"
+            android:visibility="invisible"
+            android:singleLine="true"
+            android:inputType="textCapCharacters"
+            style="@style/editViewMaterial"/>
+    </LinearLayout>
+</FrameLayout>

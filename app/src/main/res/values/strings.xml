@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Shriram Executive</string>
+    <string name="dataActivityName">Upload Service</string>
+    <string name="companyLogoText">Company Logo</string>
+    <string name="employeeLoginText">Employee Login</string>
+    <string name="employeeCodeText">Employee Code*</string>
+    <string name="employeeCodeHint">Enter Employee Code</string>
+    <string name="employeePassText">Password*</string>
+    <string name="employeePassHint">Enter Login Password</string>
+    <string name="buttonText">Submit</string>
+<!-- TODO: Arrays for BranchDetailsFragment -->
+    <string-array name="monthsArray">
+        <item>JANUARY</item>
+        <item>FEBRUARY</item>
+        <item>MARCH</item>
+        <item>APRIL</item>
+        <item>MAY</item>
+        <item>JUNE</item>
+        <item>JULY</item>
+        <item>AUGUST</item>
+        <item>SEPTEMBER</item>
+        <item>OCTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DECEMBER</item>
+    </string-array>
+    <string-array name="divisionsArray">
+        <item>AKOLA</item>
+        <item>AMRAVATI</item>
+        <item>CHANDRAPUR</item>
+        <item>GONDIA</item>
+        <item>NAGPUR</item>
+    </string-array>
+    <string-array name="branchAkolaArray">
+        <item>SELECT</item>
+        <item>AKOLA</item>
+        <item>BULDHANA</item>
+        <item>KHAMGAON</item>
+        <item>WASHIM</item>
+        <item>OTHER</item>
+    </string-array>
+    <string-array name="branchAmravatiArray">
+        <item>SELECT</item>
+        <item>AMRAVATI</item>
+        <item>PARATWADA</item>
+        <item>PUSAD</item>
+        <item>WARUD</item>
+        <item>YAVATMAL</item>
+        <item>OTHER</item>
+    </string-array>
+    <string-array name="branchChandrapurArray">
+        <item>SELECT</item>
+        <item>BRAMHAPURI</item>
+        <item>CHANDRAPUR</item>
+        <item>RAJURA</item>
+        <item>WARORA</item>
+        <item>OTHER</item>
+    </string-array>
+    <string-array name="branchGondiaArray">
+        <item>SELECT</item>
+        <item>BHANDARA</item>
+        <item>GONDIA</item>
+        <item>TUMSAR</item>
+        <item>OTHER</item>
+    </string-array>
+    <string-array name="branchNagpurArray">
+        <item>SELECT</item>
+        <item>HINGANGHAT</item>
+        <item>KATOL</item>
+        <item>NAGPUR</item>
+        <item>RAMTEK</item>
+        <item>UMRED</item>
+        <item>WARDHA</item>
+        <item>OTHER</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
